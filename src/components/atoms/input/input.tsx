@@ -1,10 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
-const input = (props) => {
+import { Props } from "./type";
+
+const input =  ({placeholder }: Props)  => {
     return (
       <div className="input">
-          <input type = "text" placeholder={props.placeholder}></input>
+          <input type = "text" placeholder={placeholder}></input>
           <FontAwesomeIcon icon={faSearch} />
       </div>
     );

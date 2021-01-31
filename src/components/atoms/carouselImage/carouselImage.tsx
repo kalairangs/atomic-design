@@ -1,9 +1,10 @@
 import React from 'react';
+import { Props } from "./type";
 
-const carouselImage = (props) => {
+const carouselImage = ({ url}: Props) => {
     return (
         <div className="carouselImage">
-            <img src={props.url}></img>
+            <img src={url}></img>
         </div>
     );
 };

@@ -1,7 +1,8 @@
-const menuItem = (props) => {
+import { Props } from "./type";
+const menuItem = ({item}: Props)  => {
   return (
     <div className="menuItem">
-menuItem
+{item}
   </div>
   );
 };

@@ -1,9 +1,10 @@
 import React from 'react';
 import Image from "../../atoms/image/image";
-const logo = (props) => {
+import { Props } from "./type";
+const logo = ({ url}: Props) => {
     return (
       <div className="logo">
-               <Image />
+               <Image url="url"/>
       </div>
     );
   };

@@ -1,11 +1,13 @@
 import Item from "../../atoms/menuItem/menuItem";
-const menu = (props) => {
+
+import { Props } from "./type";
+const menu = ({ menuItem}: Props) => {
     return (
         <div className="menu">
             <ul>
 
-                {props.data.navBar.menuItem.map((item, index) => {
-                    return <li> {item}</li>;
+                {menuItem.map((item, index) => {
+                    return <li><Item item={item} /></li>;
                 })}
 
             </ul>
