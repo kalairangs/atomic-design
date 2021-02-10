@@ -1,10 +1,9 @@
 import React from 'react';
+import "./style.css"
 
-const carouselLabel = (props) => {
+const label = (props) => {
     return (
-     
              <span className="text-label">{props.name}</span>   
     );
   };
-
-export default carouselLabel;
+export default label;

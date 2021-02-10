@@ -1,0 +1,13 @@
+
+  .carouselItem {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    background-color: black;
+  }
+  .carouselContent {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+ 

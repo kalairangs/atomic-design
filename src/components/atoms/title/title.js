@@ -1,6 +1,7 @@
 import React from 'react';
+import "./style.css"
 
-const carouselSubTitle = (props) => {
+const title = (props) => {
     return (
       <div className="subTitle">
               {props.title}  
@@ -8,4 +9,4 @@ const carouselSubTitle = (props) => {
     );
   };
 
-export default carouselSubTitle;
+export default title;

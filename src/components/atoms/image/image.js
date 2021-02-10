@@ -1,10 +1,10 @@
 import React from 'react';
+import "./style.css";     
 
 const Image = (props) => {
     return (
         <div className="image">
-
-            <img src="https://www.discoveryplus.in/f949cf3160011e286816839197ec2450.png"></img>
+            <img src={props.url}></img>
         </div>
     );
 };

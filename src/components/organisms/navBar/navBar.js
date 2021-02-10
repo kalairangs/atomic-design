@@ -1,6 +1,7 @@
 import Logo from "../../molecules/logo/logo";
 import Menu from "../../molecules/menu/menu";
 import Search from "../../molecules/search/search";
+import "./style.css";
 const navBar = (props) => {
     return (
         <div className="navBar">

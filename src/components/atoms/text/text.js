@@ -1,11 +1,12 @@
 import React from 'react';
+import "./style.css"
 
-const carouselText = (props) => {
+const Text = (props) => {
     return (
-      <div className="caroTitle">
+      <div>
                 {props.title}
       </div>
     );
   };
 
-export default carouselText;
+export default Text;
